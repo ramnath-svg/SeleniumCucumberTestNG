@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="CrossBrowserSuite" parallel="tests" >
+	<test name="ChromeTest">
+	 <parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="TestRunner.CucumberTestRunnerChromeTest" />
+		</classes>
+	</test>
+	<test name="FirefoxTest">
+	<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="TestRunner.CucumberTestRunnerFirefoxTest" />
+		</classes>
+	</test>
+</suite>
