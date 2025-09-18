@@ -1,0 +1,54 @@
+# Eclipse-specific files
+.metadata/
+*.classpath
+*.project
+.settings/
+.loadpath
+.recommenders/
+.externalToolBuilders/
+*.launch
+
+# Build output
+bin/
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Maven/Gradle
+.mvn/
+.gradle/
+build/
+
+# IDEs
+.idea/
+.vscode/
+
+# Annotation processing
+.apt_generated/
+.factorypath
+
+# System folders (especially on Windows)
+AppData/
+Documents/
+Downloads/
+Pictures/
+Videos/
+Music/
+Saved Games/
+NTUSER.*
