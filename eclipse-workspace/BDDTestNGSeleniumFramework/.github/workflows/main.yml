@@ -22,7 +22,20 @@ jobs:
 
     - name: Build with Maven
       run: mvn clean install
-      working-directory: SeleniumCucumberTestNG/BDDTestNGSeleniumFramework
+      - name: List repo contents
+      run: ls -R
+
+      - name: Check if directory exists
+  run: |
+    if [ -d "BDDTestNGSeleniumFramework" ]; then
+      cd BDDTestNGSeleniumFramework
+      mvn clean install
+    else
+      echo "Directory not found!"
+      exit 1
+    fi
+
+
 
 
 
