@@ -1,5 +1,7 @@
 package Utils;
 
 public class TestGitHub {
-	System.out.println("test");
+	public TestGitHub() {
+		// TODO Auto-generated constructor stub
+	}
 }
